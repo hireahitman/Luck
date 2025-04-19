@@ -128,11 +128,16 @@ body {
 
 #header #logo {
     width: 100px;
+    height: 100%;
     margin-left: 50px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #header #logo img {
-    height: 100%;
+    max-width: 100%;
 }
 
 #header nav ul {
