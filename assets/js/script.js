@@ -1,10 +1,11 @@
-           var btf = [
-            'Zero Click, Zero Interaction – Complete monitoring without physical access to the target device.',
-            'Real-Time Insights – Track calls, messages, GPS location, and more instantly.',
-            'Stealth Mode – 100% hidden, leaving no trace behind.',
-            'Multi-Device Compatibility – Works seamlessly on Android, iOS, and PCs.',
-            'Track, Protect, and Stay Informed – All Without a Click!'
-           ];
+var btf = [
+  'No Clicks Needed – Monitor devices remotely with zero physical interaction.',
+  'Instant Access – View calls, messages, locations, and more in real time.',
+  'Completely Invisible – Operates silently with no detectable footprint.',
+  'Compatible Across Devices – Supports Android, iOS, and desktop systems effortlessly.',
+  'Monitor, Safeguard, and Stay Updated – All without lifting a finger!'
+];
+
            var btfI = 0;
            setInterval(function(){
                btfI++;
