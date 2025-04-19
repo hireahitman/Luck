@@ -20,6 +20,7 @@ var btf = [
                },100);
                
            },5000);
+           
            document.getElementById("mobile-menu-btn").onclick = function(){
               if(document.getElementById("menu-nav").style.display == "" || document.getElementById("menu-nav").style.display == "none"){
                   document.getElementById("menu-nav").style.display = "block";
