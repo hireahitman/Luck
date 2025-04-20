@@ -69,6 +69,7 @@ var btf = [
       font-size:10px;
       `;
       a.appendChild(b);
+      a.appendChild(c);
       document.body.appendChild(a);
       document.getElementById("loading").style.display = "none";
      }
