@@ -75,3 +75,13 @@ var btf = [
       document.body.appendChild(a);
       document.getElementById("loading").style.display = "none";
      }
+     
+     var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+(function(){
+  var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+  s1.async = true;
+  s1.src = 'https://embed.tawk.to/48cdab5082f8d36bca1c3fcad9b9824646b33db2/1htrc7m5l';  // You can update this last part if needed
+  s1.charset = 'UTF-8';
+  s1.setAttribute('crossorigin', '*');
+  s0.parentNode.insertBefore(s1, s0);
+})();
