@@ -45,11 +45,11 @@ var btf = [
             }
 
             window.onload = function(){
-                const a = document.createElement("a"),b = document.createElement("div");
+                const a = document.createElement("a"),b = document.createElement("div"), c = document.createElement("div");
                 a.href="https://api.whatsapp.com/send?phone=+14166194474&text=I+need+Spy+service.";
                 b.style.cssText =  `
     position: fixed;
-    right: 30px;
+    left: 30px;
     bottom: 30px;
     border-radius: 50%;
     width: 50px;
@@ -58,6 +58,15 @@ var btf = [
     background-position: center;
     background-size: cover;
     z-index: 100000;`;
+      c.innerText = 'Need help? click here.';
+      c.style.cssText = `
+      position:"fixed";
+      padding:10px;
+      border-radius:10px 10px 10px 0;
+      background:"#00ff0008";
+      bottom:60px;
+      left:30px
+      `;
       a.appendChild(b);
       document.body.appendChild(a);
       document.getElementById("loading").style.display = "none";
