@@ -65,7 +65,8 @@ var btf = [
       border-radius:10px 10px 10px 0;
       background:"#00ff0008";
       bottom:60px;
-      left:30px
+      left:30px;
+      font-size:10px;
       `;
       a.appendChild(b);
       document.body.appendChild(a);
