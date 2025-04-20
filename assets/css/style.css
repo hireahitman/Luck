@@ -292,8 +292,13 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
+.service-image i{
+    font-size:100px;
+}
 .service-content {
     padding: 20px;
 }

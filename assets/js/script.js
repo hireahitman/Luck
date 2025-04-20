@@ -35,7 +35,9 @@ var btf = [
 
            var si = document.getElementsByClassName("service-image"), tu = document.getElementsByClassName('testimony-user');
            for(let i = 0; i < si.length; i++){
+               if(si[i].getAttribute("image-data")){
                si[i].style.backgroundImage = `url(${si[i].getAttribute("image-data")})`;
+               }
            }
             for (let i = 0; i < tu.length; i++) {
 
