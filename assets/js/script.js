@@ -60,10 +60,10 @@ var btf = [
     z-index: 100000;`;
       c.textContent = 'Need help? click here.';
       c.style.cssText = `
-      position:"fixed";
+      position:fixed;
       padding:10px;
       border-radius:10px 10px 10px 0;
-      background:"#00ff0008";
+      background:#00ff0008;
       bottom:60px;
       left:30px;
       font-size:10px;
