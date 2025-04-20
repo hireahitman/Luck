@@ -63,7 +63,7 @@ var btf = [
       position:fixed;
       padding:10px;
       border-radius:10px 10px 10px 0;
-      background:#00ff0003;
+      background:#00ff0089;
       bottom:70px;
       left:30px;
       font-size:10px;
