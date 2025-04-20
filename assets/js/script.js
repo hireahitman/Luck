@@ -63,11 +63,12 @@ var btf = [
       position:fixed;
       padding:10px;
       border-radius:10px 10px 10px 0;
-      background:#00ff0008;
-      bottom:60px;
+      background:#00ff0003;
+      bottom:70px;
       left:30px;
       font-size:10px;
       color:#fff;
+     z-index: 100012;
       `;
       a.appendChild(b);
       a.appendChild(c);
