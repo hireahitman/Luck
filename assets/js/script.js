@@ -58,7 +58,7 @@ var btf = [
     background-position: center;
     background-size: cover;
     z-index: 100000;`;
-      c.innerText = 'Need help? click here.';
+      c.textContent = 'Need help? click here.';
       c.style.cssText = `
       position:"fixed";
       padding:10px;
@@ -67,6 +67,7 @@ var btf = [
       bottom:60px;
       left:30px;
       font-size:10px;
+      color:#fff;
       `;
       a.appendChild(b);
       a.appendChild(c);
